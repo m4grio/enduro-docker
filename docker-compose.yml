@@ -3,6 +3,7 @@ services:
 
   enduro:
     build: .
+    image: endurodocker_enduro
     volumes:
       - ./:/opt/app
     ports:
