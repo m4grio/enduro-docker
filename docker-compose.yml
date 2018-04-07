@@ -1,6 +1,5 @@
 version: '3'
 services:
-
   enduro:
     build: .
     image: endurodocker_enduro
