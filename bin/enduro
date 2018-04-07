@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+docker run \
+    -it \
+    --rm \
+    --init \
+    -p 3000:3000 \
+    -p 5000:5000 \
+    --volume `pwd`:/opt/app \
+    endurodocker_enduro \
+$@
